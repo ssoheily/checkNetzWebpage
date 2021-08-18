@@ -5,7 +5,7 @@
 //ACCORDION VIEW IN WEBPAGE
 let accordion = document.querySelectorAll(".accordion")
 
-    accordion.forEach(accordion => {
+    accordion.forEach(accordion =>{
 
         // convsert htmlCollection to Array,weil cann t work mit forEach
                 Array.from(accordion.children).forEach(wrapper => {
